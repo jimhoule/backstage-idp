@@ -95,6 +95,7 @@ const routes = (
     </Route>
     <Route path="/settings" element={<UserSettingsPage />} />
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
+    <Route path="/custom" element={<div><h1>Custom!!!</h1></div>} />
   </FlatRoutes>
 );
 
