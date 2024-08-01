@@ -1,0 +1,23 @@
+{
+  "name": "node-typescript-template",
+  "version": "1.0.0",
+  "description": "Node with Typescript template",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev:start": "nodemon ./dist/index.js",
+    "dev:build": "tsc --watch",
+    "dev": "concurrently npm:dev:*"
+  },
+  "author": "Jimmy Houle",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.2",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
